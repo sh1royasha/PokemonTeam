@@ -1,3 +1,7 @@
+document.addEventListener("DOMContentLoaded", () => {
+  pokemons();
+});
+
 const url = "https://pokeapi.co/api/v2/pokemon";
 
 const getRandomInt = (min, max) =>{
@@ -50,4 +54,4 @@ const  pokemons = () =>{
         fetchData(getRandomInt(1,899));
     }
 }
-pokemons();
+
